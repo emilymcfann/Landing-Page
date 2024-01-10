@@ -5,52 +5,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header>
-        <h3>header logo</h3>
-        <ol>
-            <li>link one</li>
-            <li>link two </li>
-            <li>link three</li>
-        </ol>
-    </header>
-    <!--Middle 1 under the header, image should be off to the right side -->
-    <h1>This website is awesome</h1>
+    <div class="container">
+        <header>
+            <div class="header_menu">
+                
+                    <h4>Header Logo</h4>
+                
+                <ul>
+                    <div class="links">
+                        <li>link one</li>
+                        <li>link two </li>
+                        <li>link three</li>
+                    </div>
+                </ul>
+            </div>
+        </header>
+        <!--Middle 1 under the header, image should be off to the right side -->
+        <div class="middle1">
+            <div id="insideAwesome">
+                
+             <div class="title"><h1>This website is awesome</h1></div>
+            <p>subtext that goes here, is smaller than an h1</p>
+            <div class="sign_up_button" <a href="" target="_blank" rel="noopener noreferrer">sign up</a></div></div>
 
-    <p>subtext that goes here, is smaller than an h1</p>
-    <a href="" target="_blank" rel="noopener noreferrer">sign up</a>
-
-    <img src="./images/Colorful_Splash.jpg" alt="colorful splash">
-
-
-
-    <!--Middle 2 with boxes, four boxes with rounded corners and subtext under them.-->
-    <h3>Some random information</h3>
-    <li><img src="./images/Cute_Buttons.jpg" alt="Cute Buttons"></li>
-    <p>this is some subtext under an image</p>
-    <li><img src="./images/Number_Buttons.jpg" alt="Number Buttons"></li>
-    <p>this is some subtext under an image</p>
-    <li><img src="./images/Red_Buttons.jpg" alt="Red Buttons"></li>
-    <p>this is some subtext under an image</p>
-    <li><img src="./images/White_Buttons.jpg" alt="White Buttons"></li>
-    <p>this is some subtext under an image</p>
+            <img src="./images/Colorful_Splash.jpg" alt="colorful splash">
+        </div>
 
 
-    <!--Middle 3 quote-->
-    <p>“Live as if you were to die tomorrow. Learn as if you were to live forever.”</p>
-    <h5>― Mahatma Gandhi</h5>
 
-    <!--Middle 4 call to action with sign up button to the right-->
-    <h4>Call to action! It's time!</h4>
-    <p>sign up for our product by clicking the button to the right!</p>
-    <a href="" target="_blank" rel="noopener noreferrer">sign up</a>
+        <!--Middle 2 with boxes, four boxes with rounded corners and subtext under them.-->
+        <div class="middle2">
+            <h3>Some random information</h3>
+            <div class="square_buttons">
+                <li><img src="./images/Cute_Buttons.jpg" alt="Cute Buttons"></li>
+                <p>this is some subtext under an image</p>
+                <li><img src="./images/Number_Buttons.jpg" alt="Number Buttons"></li>
+                <p>this is some subtext under an image</p>
+                <li><img src="./images/Red_Buttons.jpg" alt="Red Buttons"></li>
+                <p>this is some subtext under an image</p>
+                <li><img src="./images/White_Buttons.jpg" alt="White Buttons"></li>
+                <p>this is some subtext under an image</p>
+            </div>
+        </div>
 
-    <footer>
-        &copy; <p>The McFann project 2023</p>
+        <!--Middle 3 quote-->
+        <div class="middle3_quote">
 
-    </footer>
+            <p>“Live as if you were to die tomorrow. Learn as if you were to live forever.”</p>
+            <h5>― Mahatma Gandhi</h5>
+        </div>
+
+        <!--Middle 4 call to action with sign up button to the right-->
+        <div class="middle4_callToAction">
+            <h4>Call to action! It's time!</h4>
+            <p>sign up for our product by clicking the button to the right!</p>
+            <div class="sign_up_button" <a href="" target="_blank" rel="noopener noreferrer">sign up</a></div>
+        </div>
+
+        <footer>
+            &copy; <p>The McFann project 2023</p>
+
+        </footer>
+    </div>
 </body>
 
 </html>

@@ -1,0 +1,111 @@
+.container {
+    background-color: black;
+    padding: 110px;
+    padding-top: 0;
+    /*area around the sides of the container*/
+    border: 4px solid blue;
+    /*gap between items*/
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 20%;
+    height: auto;
+}
+
+.header_menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/*this website is Awesome*/
+.middle1 {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    background-color: #BAD7F2;
+    padding: 40px;
+    gap: 2px;
+    /* main text*/
+    font-size: 12px;
+    font-weight: 48px, extra-bold;
+    color: #f9faf8;
+    border: 4px solid rgb(240, 148, 56);
+
+}
+.title{
+    border:2px solid red ;
+}
+
+#insideAwesome {
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    border: 4px solid rgb(96, 28, 83);
+
+}
+
+.sign_up_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    border: 4px solid #3882f6;
+    border-radius:.15cm;
+    width: 5em;
+    height: 1.2em;
+}
+
+.middle2 {
+    background-color: #124559;
+    padding: 5px;
+    gap: 10px;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+.square_buttons {}
+
+.middle3_quote {
+    background-color: #e5e7eb;
+    padding: 5px;
+    gap: 10px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.middle4_callToAction {
+    background-color: #3882f6;
+    padding: 5px;
+    gap: 10px;
+
+}
+
+footer {
+    background-color: #EFD3D7;
+    padding: 5px;
+    gap: 10px;
+    background-color: #1f2937;
+    color: white;
+}
